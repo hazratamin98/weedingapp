@@ -42,7 +42,7 @@ const Footer = () => {
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1, transition: { delay: 0.3 } }}
           >
-            <p className="mb-2 font-bold text-3xl leading-9 font-Josefin">
+            <p className="mb-2 font-bold text-3xl leading-9 font-Josefin min-w-[335px]">
               80% off until November 16th
             </p>
           </motion.div>
@@ -52,7 +52,7 @@ const Footer = () => {
               initial={{ y: -30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
             >
-              <div className="flex  md:gap-4 justify-center ">
+              <div className="flex  md:gap-4 justify-center  ">
                 <div className=" flex md:flex-row text-base md:text-2xl gap-1 mx-1">
                   <span className="font-bold text-[28px] md:text-[40px] font-Josefin">
                     {countdown.days}

@@ -1,10 +1,10 @@
 import React from "react";
+import Image from "next/image";
 
-import Logo from "../icons/Icong.svg";
+import Logo from "../assets/images/Icong.svg";
 
 //Components
 import Container from "./Container";
-import Image from "next/image";
 
 const Navbar = () => {
   return (

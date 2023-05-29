@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 import Container from "./Container";
 
 //Icons
-import Image1 from "../icons/image1.svg";
-import Image2 from "../icons/image2.svg";
+import Image1 from "../assets/images/image1.svg";
+import Image2 from "../assets/images/image2.svg";
 
 const Hero = () => {
   return (
@@ -51,7 +51,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            initial={{ x: -200, opacity: 0 }}
+            initial={{ x: -10, opacity: 0 }}
             animate={{
               y: 0,
               x: 0,
